@@ -17,7 +17,7 @@ st.markdown("---")
 # Sidebar - Giriş Bilgileri
 with st.sidebar:
     st.header("🔐 Giriş Bilgileri")
-    username = st.text_input("Kullanıcı Adı", value="metin.morgul@epias.com.tr")
+    username = st.text_input("Kullanıcı Adı")
     password = st.text_input("Şifre", type="password")
     
     st.markdown("---")
